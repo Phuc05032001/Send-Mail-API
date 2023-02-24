@@ -1,11 +1,9 @@
-const router = require('express').Router();
+const router = require("express").Router();
 
-const { signup, getbill } = require('../controller/appController.js')
-
+const { signup, comment } = require("../controller/appController.js");
 
 /** HTTP Reqeust */
-router.post('/user/signup', signup);
-router.post('/product/getbill', getbill);
-
+router.post("/user/signup", signup);
+router.get("/post/comment", comment);
 
 module.exports = router;
