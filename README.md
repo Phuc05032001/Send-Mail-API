@@ -9,6 +9,4 @@ Create .env file in the root directory and put your own email and password.
     EMAIL=<YOUR_EMAIL>
     PASSWORD=<GMAIL_GENERATED_PASSWORD>
 ```
-For More Information Join [Daily Tuition](https://www.youtube.com/@dailytuition).
-
 
